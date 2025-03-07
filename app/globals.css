@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://use.typekit.net/hly6hrs.css");
+
 html,
 body {
     scroll-behavior: smooth !important;
@@ -16,4 +18,8 @@ progress::-webkit-progress-value {
     .btn {
         @apply !capitalize;
     }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "scale-variable", sans-serif;
 }
