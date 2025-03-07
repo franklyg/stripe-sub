@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { useSession } from 'next-auth/react';
+// import Image from 'next/image';
+// import logo from '@/app/icon.png';
 
 // Stripe Plans >> fill in your own priceId & link
 export const plans = [
