@@ -7,7 +7,7 @@ const Content = () => {
                 </div>
                 <div className="col-start-3 ">
                     <p className="text-3xl mb-4">[SiteName] is managed by Francesco Gisonni and Stephan Peralta. They collectivelty hold 15 years of experince working in the Shopify ecommerce space.</p>
-                    <p className="text-3xl">They're a dream team having worked with over 50 merchants combined specializing all areas listed in <a href="/" className="underline">our plans</a>.</p>
+                    <p className="text-3xl">They are a dream team having worked with over 50 merchants combined specializing all areas listed in <a href="/" className="underline">our plans</a>.</p>
                 </div>
             </div>      
             <div className="grid grid-cols-3 gap-[.1rem] bg-blue-700 py-[.1rem]">
