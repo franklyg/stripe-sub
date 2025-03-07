@@ -1,4 +1,4 @@
-const Content = ({ copy }) => {
+const Content = () => {
     return(
         <section className="content">
             <div className="px-4 py-10 grid grid-cols-3">

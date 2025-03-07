@@ -1,4 +1,4 @@
-const Process  = (props) => {
+const Process  = () => {
     return(
         <section className="process">
             <div className="border-b p-2">
