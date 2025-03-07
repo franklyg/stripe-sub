@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { useSession } from 'next-auth/react';
 import Image from 'next/image';
 import logo from '@/app/icon.png';
-import './../app/styles/components/Pricing/styles.css';
 
 // Stripe Plans >> fill in your own priceId & link
 export const plans = [
@@ -35,7 +34,7 @@ const Pricing = () => {
                     <h2 className="font-bold text-3xl lg:text-5xl tracking-tight">Our Plans</h2>
                 </div>
                 <div className="grid grid-cols-12">
-                    <div className="py-8 px-4 bg-blue-700 text-gray-200 lg:col-span-4">
+                    <div className="py-10 px-4 bg-blue-700 text-gray-200 lg:col-span-4">
                         <div className="flex justify-between items-center">
                             <h3 className="text-xl inline-block px-6 rounded-full bg-gray-200 text-blue-700">theme light</h3>
                             <div className="our-services--buttons-plans flex py-2">

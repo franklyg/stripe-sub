@@ -1,6 +1,7 @@
 import themes from 'daisyui/src/theming/themes';
 
 const config = {
+    title:'ShipFast',
     mailgun: {
         fromNoReply: `ShipFast <noreply@mg.shipfa.st>`
     },
