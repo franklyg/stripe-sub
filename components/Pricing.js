@@ -93,7 +93,7 @@ const Pricing = () => {
                             <div className="w-4/6">
                                 <div className="space-y-2">
                                     <a
-                                        className="btn-block block text-center bg-red-500 text-gray-200 p-4 text-3xl"
+                                        className="btn-block block text-center bg-red-500 text-gray-200 p-4 text-3xl rounded-md"
                                         target="_blank"
                                         href={
                                             plan.link +

@@ -4,7 +4,7 @@ const Process  = () => {
             <div className="border-b p-2">
                 <h2 className="font-bold text-3xl lg:text-5xl tracking-tight">Our Process</h2>
             </div>
-            <div className="px-4 py-10 grid grid-cols-12 gap-1">
+            <div className="p-4 grid grid-cols-12 gap-1 bg-gray-200">
                 {/* 
                     Processes:
                     
