@@ -8,14 +8,14 @@ import { useSession } from 'next-auth/react';
 // Stripe Plans >> fill in your own priceId & link
 export const plans = [
     {
-        link: process.env.NODE_ENV === 'development' ? '********' : '',
-        priceId: process.env.NODE_ENV === 'development' ? '********' : '',
+        link: process.env.NODE_ENV === 'development' ? 'https://buy.stripe.com/test_3cs29m0sy2UA9nG145' : '',
+        priceId: process.env.NODE_ENV === 'development' ? 'price_1R1CXWIDrpL1303ZBMe71CPP' : '',
         price: 2499,
         duration: '/month'
     },
     {
-        link: process.env.NODE_ENV === 'development' ? '********' : '',
-        priceId: process.env.NODE_ENV === 'development' ? '********' : '',
+        link: process.env.NODE_ENV === 'development' ? 'https://buy.stripe.com/test_fZeg0cgrwdze0RafZ0' : '',
+        priceId: process.env.NODE_ENV === 'development' ? 'price_1R1CWeIDrpL1303ZYCrS7jD2' : '',
 
         price: 1999,
         duration: '/month',
