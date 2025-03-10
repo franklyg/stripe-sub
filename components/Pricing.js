@@ -11,15 +11,15 @@ export const plans = [
         link: process.env.NODE_ENV === 'development' ? 'https://buy.stripe.com/test_3cs29m0sy2UA9nG145' : '',
         priceId: process.env.NODE_ENV === 'development' ? 'price_1R1CXWIDrpL1303ZBMe71CPP' : '',
         price: 2499,
-        duration: '/month'
+        duration: 'per month'
     },
     {
-        link: process.env.NODE_ENV === 'development' ? 'https://buy.stripe.com/test_fZeg0cgrwdze0RafZ0' : '',
+        link: process.env.NODE_ENV === 'development' ? 'https://buy.stripe.com/test_28ocO05MS66M7fy5kn' : '',
         priceId: process.env.NODE_ENV === 'development' ? 'price_1R1CWeIDrpL1303ZYCrS7jD2' : '',
 
-        price: 1999,
-        duration: '/month',
-        savings: '(22% OFF)'
+        price: 7996,
+        duration: '$1999 per month',
+        savings: ''
     }
 ];
 
@@ -62,7 +62,7 @@ const Pricing = () => {
                                         name="plan"
                                         value="quarterly"
                                         className="hidden"
-                                        checked={plan.price === 1999}
+                                        checked={plan.price === 7996}
                                         onChange={() => setPlan(plans[1])}
                                     />
                                     <label
@@ -79,8 +79,8 @@ const Pricing = () => {
                             <div class="flex items-end justify-end h-5/6">
                                 <p className={`text-9xl tracking-tight font-extrabold`}>
                                     ${plan.price}
+                                    <span className="block text-right text-sm tracking-wide uppercase font-semibold">{plan.duration} {plan.savings}</span>
                                 </p>
-                                {/* <p className="text-sm tracking-wide text-base-content/80 uppercase font-semibold">{plan.duration}{plan.savings}</p> */}
                             </div>
                             
                         </div>
