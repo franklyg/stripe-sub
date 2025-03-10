@@ -16,7 +16,7 @@ const Process  = () => {
                     Final delivery
                 */}
                 <div className="col-span-12 lg:col-span-4 text-gray-200 bg-blue-700 rounded-3xl p-4">
-                    <p className="text-gray-200 text-3xl">Our process is simple and effective. There's no catches, no hidden fees, and no fluff. Our process is as listed. We won't take you for a ride. Our process is proven and has worked for years.</p>
+                    <p className="text-gray-200 text-3xl">Our process is simple and effective. There are no catches, no hidden fees, and no fluff. Our process is as listed. We will not take you for a ride. Our process is proven and has worked for years.</p>
                 </div>
                 <div className="grid grid-cols-12 gap-1 col-span-12 lg:col-span-8">
                     <div className="col-span-12 lg:col-span-4 text-gray-200 bg-blue-700 rounded-3xl p-4">

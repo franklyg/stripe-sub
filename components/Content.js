@@ -8,7 +8,7 @@ const Content = () => {
                 <div className="col-span-3 lg:col-start-3">
                     <p className="text-3xl mb-4">Linefortyeight is managed by Francesco Gisonni and Stephan Peralta. They collectivelty hold <strong>15 years</strong> of experince working in the Shopify ecommerce space.</p>
                     <p className="text-3xl mb-4">They are a dream team having worked with over 50 merchants combined specializing all areas listed in <a href="/" className="underline">our plans</a>.</p>
-                    <p className="text-3xl mb-4">We ONLY have <strong>10</strong> available retainers per month. Once we're fully booked, you'll have to wait for the next available slot.</p>
+                    <p className="text-3xl mb-4">We ONLY have <strong>10</strong> available retainers per month. Once we are fully booked, you will have to wait for the next available slot.</p>
                 </div>
             </div>      
             <div className="grid grid-cols-3 gap-[.1rem] bg-blue-700 py-[.1rem]">
@@ -25,7 +25,7 @@ const Content = () => {
             </div>
             <div className="grid lg:grid-cols-3 px-4 py-10">
                 <div className=" col-span-3lg:col-span-1">
-                    <h2 className="text-5xl font-bold mb-4">We're more than just developers</h2>
+                    <h2 className="text-5xl font-bold mb-4">We are more than just developers</h2>
                 </div>
                 <div className="col-span-3 lg:col-start-3">
                     <p className="text-3xl mb-4">Before development, we know strong relationships with our clients is most important. We want to give you less worry, and more results.</p> 
