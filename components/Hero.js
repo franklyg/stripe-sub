@@ -5,15 +5,15 @@ import React from "react";
 const Hero = ({ title, subtitle }) => {
     return (
         <div className="min-h-[60vh] grid grid-cols-6 items-center bg-blue-700 p-4">
-            <div className="text-gray-200 text-left col-span-2">
+            <div className="text-gray-200 text-left col-span-6 lg:col-span-3">
                 <h1 className="text-7xl leading-tight mb-4">{title}</h1>
                 <h2 className="text-3xl leading-tight italic">{subtitle}</h2>
                 <div className="grid gap grid-cols-2 gap-4">
-                    <a href="" className="btn-block block text-center bg-gray-200 text-blue-700 p-4 text-3xl mt-8 rounded-md">View Plans</a>
-                    <a href="" className="btn-block block text-center text-gray-200  p-4 text-3xl mt-8 rounded-md border">Schedule a Call</a>
+                    {/* <a href="" className="btn-block block text-center bg-gray-200 text-blue-700 p-4 text-3xl mt-8 rounded-md">View Plans</a> */}
+                    <a href="" className="btn-block block col-span-2 lg:col-span-1 text-center text-gray-200 p-4 text-3xl mt-8 rounded-md border">Schedule a Call</a>
                 </div>
             </div>
-            <div className="bg-gray-200 text-blue-700 px-4 py-8 text-left col-start-5 col-span-2 rounded-lg shadow-lg">
+            <div className="col-span-6 lg:col-start-5 lg:col-span-2 mt-4 lg:mt-0 bg-gray-200 text-blue-700 px-4 py-8 text-left rounded-lg shadow-lg">
                 <h2 className="text-3xl leading-tight">Shopify experts at freelancer rates!</h2>
                 <h3 className="font-medium text-2xl mt-4 leading-tight">We offer generous retainers that include:</h3>
                 <ul className="pl-4 mt-4 ml-4 list-disc">
