@@ -49,7 +49,7 @@ const Pricing = () => {
                                         onChange={() => setPlan(plans[0])}
                                     />
                                     <label
-                                        for="monthly"
+                                        htmlFor="monthly"
                                         className="w-full block p-4 text-center cursor-pointer border border-gray-300 label-checked:bg-gray-200 label-checked:text-blue-700"
                                     >
                                         monthly
@@ -66,7 +66,7 @@ const Pricing = () => {
                                         onChange={() => setPlan(plans[1])}
                                     />
                                     <label
-                                        for="quarterly"
+                                        htmlFor="quarterly"
                                         className="w-full block p-4 text-center cursor-pointer border border-gray-300 label-checked:bg-gray-200 label-checked:text-blue-700"
                                     >
                                         quarterly
@@ -76,7 +76,7 @@ const Pricing = () => {
                         </div>
                         <div className="our-services--buttons h-full">
 
-                            <div class="flex items-end justify-end h-5/6">
+                            <div className="flex items-end justify-end h-5/6">
                                 <p className={`text-9xl tracking-tight font-extrabold`}>
                                     ${plan.price}
                                     <span className="block text-right text-sm tracking-wide uppercase font-semibold">{plan.duration} {plan.savings}</span>
